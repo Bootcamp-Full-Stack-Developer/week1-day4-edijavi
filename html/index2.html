@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="toggler.css">
+  <script src="toggler.js"></script>
+</head>
+<html>
+  <body>  
+    <header>
+      <!-- Agrupar los enlaces de navegación, los formularios y cualquier otro elemento -->
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servcios</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li class="dropdown">
+            <a href="#" role="button" class="dropdown__btn" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+              Formación
+            </a>
+            <ul class="dropdown__menu" aria-labelledby="dropdownMenuButton">
+              <li><a href="#">Angular 7 + Animations</a></li>
+              <li><a href="#">Angular 7 Avanzado</a></li>
+              <li><a href="#">Docker + Kubernetes</a></li>
+              <li><a href="#">NodeJS</a></li>
+              <li><a href="#">CSS + Sass Avanzado</a></li>
+              <li><a href="#">VueJS 2</a></li>
+              <a aria-hidden="true" class="dropdown__menu--divider"></a>
+              <li><a href="#">Bootcamp</a></li>
+            </ul>
+          </li>              
+          <li><a href="#">Referencia</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+        <form class="search" id="Sugerencias">
+          <input type="text" class="search__input" aria-haspopup="true" aria-expanded="false">
+          <ul class="dropdown__menu" aria-labelledby="searchAutocomplete">
+            <li><a href="#">Angular 7</a></li>
+            <li><a href="#">Angular 7 + Animations</a></li>
+            <li><a href="#">Angular 7 Avanzado</a></li>
+            <a aria-hidden="true" class="dropdown__menu--divider"></a>
+            <li><a href="#">Otros cursos de formación</a></li>
+            <li><a href="#">Bootcamp</a></li>
+          </ul>
+          <button type="submit">Buscar</button>
+        </form>      
+      </nav>           
+    </header>
+  
+    <main>
+      <article>
+        <h1>¡Hola a todos!</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae fugiat eligendi quidem in iure tempora! Consectetur ex, autem amet maxime odit. Adipisci quod, tenetur reiciendis nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <a href="#">Más información</a>
+      </article>   
+      <div>
+        <article>
+          <h2><a href="#">Angular 7 + Animations</a></h2>
+          <img src="..." alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nulla quam, deleniti nam vel minus voluptatem error aliquam fugiat pariatur ea nihil tempore obcaecati commodi, tempora dolores illum iusto eum!</p>
+        </article>
+        <article>
+          <h2><a href="#">Docker + Kubernetes</a></h2>
+          <img src="..." alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas hic minima sint iste quis, rerum quisquam excepturi quibusdam aut, eveniet, modi omnis harum autem consectetur quod perspiciatis corporis vitae molestias?</p>
+        </article>
+        <article>
+          <h2><a href="#">NodeJS</a></h2>
+          <img src="..." alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit dolor perferendis tempore, fugiat possimus quae temporibus ratione, consectetur inventore nobis, nesciunt vero recusandae vel? Temporibus doloribus incidunt cum dignissimos.</p>
+        </article>
+      </div>  
+      <article>
+        <div>
+          <video src="..."></video>
+        </div>
+        <div>
+          <h2>Próximas convocatorias</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem illo, sapiente facere molestiae.</p>
+          <br>
+          <form action="">
+            <label for="email">Indica tu correo electrónico</label>
+            <input type="email" id="email" placeholder="Introduce un email váldo">
+            <button type="submit">Me apunto!</button>
+          </form>
+        </div>
+      </article>  
+      <article>
+        <h2>Servicios de apoyo profesional</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nobis rem laboriosam tempore magni nemo, iure quis eligendi corrupti aperiam expedita commodi totam sunt inventore libero? Expedita deleniti ullam incidunt!</p>
+        <a href="#">Lorem ipsum</a>
+      </article>  
+    </main>  
+    <footer>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servcios</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Formación</a></li>
+        <li><a href="#">Referencia</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <p>&copy; Company 2018</p>
+    </footer>  
+  </body>
+</html>
+
+
